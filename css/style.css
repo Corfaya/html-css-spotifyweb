@@ -4,3 +4,88 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --transpar-black: #000000a9;
+    --brain-grey: #141922;
+    --charcoal : #282828;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* UTILITIES */
+.flex {
+    display: flex;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.bg-braingrey {
+    background-color: var(--brain-grey);
+}
+
+.bg-transparblack {
+    background-color: var(--transpar-black);
+}
+
+.bg-charcoal {
+    background-color: var(--charcoal);
+}
+
+button {
+    background-color: transparent;
+    color: var(--white);
+    text-transform: uppercase;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    padding: 10px 35px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* BODY SECTIONS */
+.top-section {
+    height: calc(100vh - 100px);
+}
+
+.sidebar {
+    width: 50px;
+}
+
+.main-box {
+    width: calc(100vw - 50px);
+}
+
+header {
+    height: 100px;
+    top: 0;
+    width: calc(100vw - 50px);
+    z-index: 1;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    height: 100px;
+}
+
+/* Other classes */
