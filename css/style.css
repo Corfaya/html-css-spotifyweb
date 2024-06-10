@@ -252,3 +252,43 @@ span {
     width: 50px;
 }
 /* DA VEDERE SU */
+
+
+
+@media screen and (min-width: 576px){
+    .sidebar {
+        width: 200px;
+    }
+    
+    .main-box {
+        width: calc(100vw - 200px);
+    }
+    
+    header {
+        width: calc(100vw - 200px);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .col-md-25 {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .sidebar {
+        width: 300px;
+    }
+    
+    .main-box {
+        width: calc(100vw - 300px);
+    }
+    
+    header {
+        width: calc(100vw - 300px);
+    }
+    
+    .col-lg-16 {
+        width: calc(100% / 6);
+    }
+}
