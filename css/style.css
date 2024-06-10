@@ -162,10 +162,15 @@ footer {
     font-size: 12px;
 }
 
-
 .menu-icons img {
     width: 25px;
     padding: 3px 0;
+}
+
+.green-border-left {
+    border-left: 3px solid var(--green-yellow);
+    height: 30px;
+    left: -20px;
 }
 
 .user-sidebar .install-icon {
@@ -202,12 +207,11 @@ footer {
     padding: 20px 10px;
 }
 
-.green-border {
+.green-border-bottom {
     border-top: 2px solid var(--green-yellow);
     width: 50%;
     margin-top: 4px;
 }
-
 
 .main-titles {
     padding: 20px 0;
@@ -296,11 +300,13 @@ span {
 }
 
 .grey-line {
-    width: 120px;
+    max-width: 120px;
+    width: 400px;
 }
 
 .grey-line-smaller {    
-    width: 80px;
+    max-width: 80px;    
+    width: 130px;
 }
 
 .silver-line, .silver-line-smaller {
@@ -310,11 +316,13 @@ span {
 }
 
 .silver-line {    
-    width: 40px;
+    max-width: 40px;
+    width: 100px;
 }
 
 .silver-line-smaller {
-    width: 20px;
+    max-width: 20px;
+    width: 30px;
 }
 /* DA VEDERE SU */
 
@@ -399,6 +407,10 @@ span {
         border-top: 1px solid var(--grey);
         width: 160px;
     }
+
+    .footer-left p {
+        display: inline-block;
+    }
 }
 
 
@@ -408,6 +420,18 @@ span {
 @media screen and (min-width: 768px){
     .col-md-25 {
         width: 25%;
+    }
+
+    .grey-line {
+        max-width: 200px;
+    }
+
+    .silver-line-smaller {
+        max-width: 30px;
+    }
+
+    .footer-left div.flex {
+        flex-direction: row;
     }
 }
 
@@ -426,5 +450,13 @@ span {
     
     .col-lg-16 {
         width: calc(100% / 6);
+    }
+
+    .grey-line {
+        max-width: 400px;
+    }
+
+    .silver-line {        
+        max-width: 100px;
     }
 }
