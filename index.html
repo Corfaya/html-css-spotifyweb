@@ -16,7 +16,7 @@
     <section class="top-section flex">
         <!-- SIDEBAR -->
         <div class="sidebar bg-black flex flex-col align-center space-between py-10">
-            <div class="menu-icons text-center text-start">
+            <div class="menu-icons text-center">
                 <img src="./img/logo.svg" alt="Spotify" class="d-none-mobile">
                 <div>
                     <img src="./img/logo-small.svg" alt="Spotify" class="d-none-s">
@@ -33,14 +33,14 @@
                     <img src="./img/libreria.svg" alt="Library">
                     <p class="d-none-mobile">La tua libreria</p>
                 </div>
-                <div class="d-none-mobile">
+                <div class="d-none-mobile text-start">
                     <h3>Playlist</h3>
                     <div>
                         <div class="flex align-center">
                             <i class="fa-solid fa-square-plus"></i>
                             <p>Crea Playlist</p>
                         </div>
-                        <ul>
+                        <ul class="text-start">
                             <li>Nome Playlist</li>
                             <li>Nome Playlist</li>
                             <li>Nome Playlist</li>
@@ -53,8 +53,15 @@
                 </div>
             </div>
             <div class="user-sidebar flex flex-col align-center">
-                <img src="./img/download.svg" alt="Download">
-                <div><img src="./img/profile.svg" alt="Avatar"></div>
+                <div class="flex align-center">
+                    <img src="./img/download.svg" alt="Download" class="install-icon">
+                    <p class="d-none-mobile">Installa app</p>
+                </div>
+                <div class="divider-sidebar"></div>
+                <div class="flex align-center">
+                    <div class="avatar"><img src="./img/profile.svg" alt="Avatar"></div>
+                    <h3 class="d-none-mobile">John Doe</h3>
+                </div>
             </div>
         </div>
         <!-- MAIN -->
