@@ -3,16 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Spotify Web</title>
 </head>
 <body>
     <!-- TOP SECTION -->
      <section class="top-section flex">
-        <div class="sidebar bg-black"></div>
+        <!-- SIDEBAR -->
+        <div class="sidebar bg-black flex flex-col align-center space-between py-10">
+            <div class="menu-icons">
+                <img src="./img/logo-small.svg" alt="Spotify">
+                <img src="./img/home.svg" alt="Home">
+                <img src="./img/search.svg" alt="Search">
+                <img src="./img/libreria.svg" alt="Library">
+            </div>
+            <div class="user-sidebar flex flex-col align-center">
+                <button class="btn-secondary mb-20">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </button>
+                <div><img src="./img/profile.svg" alt="Avatar"></div>
+            </div>
+        </div>
+        <!-- MAIN -->
         <div class="main-box bg-braingrey">
             <header class="fixed bg-transparblack flex justify-end align-center">
-                <button>Effettua l'upgrade</button>
+                <button class="btn-primary">Effettua l'upgrade</button>
             </header>
         </div>
      </section>
