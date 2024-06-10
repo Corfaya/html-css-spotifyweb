@@ -55,8 +55,20 @@ body {
     gap: 10px;
 }
 
+.gap-20 {
+    gap: 20px;
+}
+
 .fixed {
     position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
 }
 
 .text-center {
@@ -202,7 +214,7 @@ footer {
 }
 
 .album-title {
-    font-size: 15px;
+    font-size: 16px;
     padding: 10px 0;
 }
 
@@ -231,6 +243,36 @@ footer .album-img {
     font-size: 14px;
 }
 
+.footer-left p {
+    color: var(--grey);
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.footer-left i {
+    color: var(--grey);
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+
+.footer-center i {
+    font-size: 15px;
+}
+
+.footer-center .fa-circle-play {
+    font-size: 25px;
+}
+
+.footer-center p {
+    font-size: 10px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.footer-right {
+    font-size: 12px;
+}
+
 /* DA VEDERE GIU*/
 span {
     display: inline-block;
@@ -240,21 +282,33 @@ span {
     background-color: var(--grey);
     border-radius: 10px;
     height: 5px;
-    max-width: 200px;
-    width: 100px;
+    width: 120px;
 }
 
 .white-line {
     background-color: var(--white);
     border-radius: 10px;
     height: 5px;
-    max-width: 100px;
-    width: 50px;
+    width: 40px;
+}
+
+.grey-line-lower {
+    background-color: var(--grey);
+    border-radius: 10px;
+    height: 5px;
+    width: 80px;
+}
+
+.white-line-lower {
+    background-color: var(--white);
+    border-radius: 10px;
+    height: 5px;
+    width: 20px;
 }
 /* DA VEDERE SU */
 
 
-
+/* RESPONSIVENESS */
 @media screen and (min-width: 576px){
     .sidebar {
         width: 200px;
