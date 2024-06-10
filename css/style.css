@@ -9,6 +9,7 @@
     --white: #fff;
     --black: #000;
     --green-yellow: #ADFF2F;
+    --silver: #C1C1C1;
     --grey: #808080;
     --transpar-black: #000000a9;
     --brain-grey: #141922;
@@ -214,7 +215,7 @@ footer {
 }
 
 .album-title {
-    font-size: 16px;
+    font-size: 15px;
     padding: 10px 0;
 }
 
@@ -237,6 +238,10 @@ footer {
 footer .album-img {
     max-width: 30px;
     max-height: 30px;
+}
+
+.footer-left, .footer-center, .footer-right {
+    padding: 10px;
 }
 
 .footer-left h4 {
@@ -273,36 +278,35 @@ footer .album-img {
     font-size: 12px;
 }
 
-/* DA VEDERE GIU*/
 span {
     display: inline-block;
 }
 
-.grey-line {
+.grey-line, .grey-line-smaller {
     background-color: var(--grey);
     border-radius: 10px;
     height: 5px;
+}
+
+.grey-line {
     width: 120px;
 }
 
-.white-line {
-    background-color: var(--white);
-    border-radius: 10px;
-    height: 5px;
-    width: 40px;
-}
-
-.grey-line-lower {
-    background-color: var(--grey);
-    border-radius: 10px;
-    height: 5px;
+.grey-line-smaller {    
     width: 80px;
 }
 
-.white-line-lower {
-    background-color: var(--white);
+.silver-line, .silver-line-smaller {
+    background-color: var(--silver);
     border-radius: 10px;
     height: 5px;
+}
+
+.silver-line {    
+    width: 40px;
+}
+
+.silver-line-smaller {
     width: 20px;
 }
 /* DA VEDERE SU */
