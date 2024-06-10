@@ -17,6 +17,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--white);
 }
 
 /* UTILITIES */
@@ -84,7 +85,7 @@ button {
 }
 
 .content {
-    margin: 10px 5px;
+    margin: 5px;
 }
 
 .py-10 {
@@ -114,7 +115,7 @@ header {
 }
 
 main {
-    padding: 150px 0;
+    padding: 100px 20px 50px 20px;
 }
 
 footer {
@@ -184,10 +185,35 @@ footer {
 }
 
 
-h2 {
-    color: var(--white);
+.main-titles {
+    padding: 20px 0;
+}
+
+.main-titles h2 {
+    padding: 10px 0;
 }
 
 .album-img {
     width: 100%;
+}
+
+.album-title {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.album-caption {
+    color: var(--grey);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.main-titles p, .album-caption {
+    color: var(--grey);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.rounded img {
+    border-radius: 50%;
 }
