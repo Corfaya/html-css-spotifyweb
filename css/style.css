@@ -32,6 +32,10 @@ body {
     flex-wrap: wrap;
 }
 
+.d-none-mobile {
+    display: none;
+}
+
 .flex {
     display: flex;
 }
@@ -154,7 +158,7 @@ footer {
 
 /* Other classes */
 .btn-primary {
-    padding: 10px 35px;
+    padding: 13px 35px;
     font-size: 12px;
 }
 
@@ -245,7 +249,7 @@ footer .album-img {
 }
 
 .footer-left h4 {
-    font-size: 14px;
+    font-size: 11px;
 }
 
 .footer-left p {
@@ -316,6 +320,7 @@ span {
 @media screen and (min-width: 576px){
     .sidebar {
         width: 200px;
+        padding: 20px;
     }
     
     .main-box {
@@ -324,6 +329,50 @@ span {
     
     header {
         width: calc(100vw - 200px);
+    }
+
+    .d-none-s {
+        display: none;
+    }
+
+    .d-none-mobile {
+        display: block;
+    }
+
+    .menu-icons>img {
+        width: 70%;
+        padding-bottom: 20px;
+    }
+
+    .text-start {
+        text-align: start;
+    }
+
+    .menu-icons p {
+        color: var(--grey);
+        font-size: 12px;
+        font-weight: 600;
+        padding-left: 5px;
+    }
+
+    .menu-icons h3 {
+        font-size: 12px;
+        padding: 15px 0;
+        text-transform: uppercase;
+    }
+
+    .menu-icons i {
+        color: var(--grey);
+        font-size: 40px;
+        padding-right: 5px;
+    }
+
+    .menu-icons ul li {
+        list-style-type: none;
+        color: var(--grey);
+        font-size: 12px;
+        font-weight: 600;
+        padding: 10px 0;
     }
 }
 

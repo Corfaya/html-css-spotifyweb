@@ -16,11 +16,41 @@
     <section class="top-section flex">
         <!-- SIDEBAR -->
         <div class="sidebar bg-black flex flex-col align-center space-between py-10">
-            <div class="menu-icons text-center">
-                <img src="./img/logo-small.svg" alt="Spotify">
-                <img src="./img/home.svg" alt="Home">
-                <img src="./img/search.svg" alt="Search">
-                <img src="./img/libreria.svg" alt="Library">
+            <div class="menu-icons text-center text-start">
+                <img src="./img/logo.svg" alt="Spotify" class="d-none-mobile">
+                <div>
+                    <img src="./img/logo-small.svg" alt="Spotify" class="d-none-s">
+                </div>
+                <div class="flex align-center">
+                    <img src="./img/home.svg" alt="Home">
+                    <p class="d-none-mobile">Home</p>
+                </div>
+                <div class="flex align-center">
+                    <img src="./img/search.svg" alt="Search">
+                    <p class="d-none-mobile">Cerca</p>
+                </div>
+                <div class="flex align-center">
+                    <img src="./img/libreria.svg" alt="Library">
+                    <p class="d-none-mobile">La tua libreria</p>
+                </div>
+                <div class="d-none-mobile">
+                    <h3>Playlist</h3>
+                    <div>
+                        <div class="flex align-center">
+                            <i class="fa-solid fa-square-plus"></i>
+                            <p>Crea Playlist</p>
+                        </div>
+                        <ul>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="user-sidebar flex flex-col align-center">
                 <img src="./img/download.svg" alt="Download">
