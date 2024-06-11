@@ -101,3 +101,7 @@ button {
 .w-100 {
     width: 100%;
 }
+
+.min-w-100 {
+    min-width: 100%;
+}
