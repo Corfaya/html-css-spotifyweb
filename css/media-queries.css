@@ -1,0 +1,120 @@
+/* RESPONSIVENESS */
+/* S */
+@media screen and (min-width: 576px){
+    .sidebar {
+        width: 200px;
+        padding: 20px;
+        align-items: flex-start;
+    }
+    
+    .main-box {
+        width: calc(100vw - 200px);
+    }
+    
+    header {
+        width: calc(100vw - 200px);
+    }
+
+    .d-none-s {
+        display: none;
+    }
+
+    .d-none-mobile {
+        display: block;
+    }
+
+    .menu-icons>img {
+        width: 70%;
+        padding-bottom: 20px;
+    }
+
+    .text-start {
+        text-align: start;
+    }
+
+    .menu-icons p, .menu-icons h3, .menu-icons ul li, .user-sidebar h3, .user-sidebar p {
+        font-size: 12px;
+    }
+
+    .menu-icons p, .menu-icons ul li, .user-sidebar p {
+        font-weight: 600;
+    }
+
+    .menu-icons p {
+        color: var(--grey);        
+        padding-left: 5px;
+    }
+
+    .menu-icons h3 {
+        padding: 15px 0;
+        text-transform: uppercase;
+    }
+
+    .menu-icons i {
+        color: var(--grey);
+        font-size: 40px;
+        padding-right: 5px;
+    }
+
+    .menu-icons ul li {
+        list-style-type: none;
+        color: var(--grey);
+        padding: 10px 0;
+    }
+
+    .user-sidebar {
+        align-items: flex-start;
+    }
+
+    .user-sidebar h3 {
+        padding-left: 10px;
+    }
+    
+    .user-sidebar p {
+        color: var(--grey);
+        padding-left: 10px;
+    }
+
+    .divider-sidebar {
+        border-top: 1px solid var(--grey);
+        width: 160px;
+    }
+
+    .footer-left p {
+        display: inline-block;
+    }
+}
+
+/* MD */
+@media screen and (min-width: 768px){
+    .col-md-25 {
+        width: 25%;
+    }
+
+    .grey-line {
+        max-width: 200px;
+    }
+
+    .silver-line-smaller {
+        max-width: 30px;
+    }
+
+    .footer-left div.flex {
+        flex-direction: row;
+    }
+}
+
+/* LG */
+@media screen and (min-width: 1200px){
+    .col-lg-16 {
+        width: calc(100% / 6);
+    }
+
+    .grey-line {
+        max-width: 400px;
+    }
+
+    .silver-line {        
+        max-width: 100px;
+    }
+}

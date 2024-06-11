@@ -1,0 +1,91 @@
+/* UTILITIES */
+.debug {
+    width: 100%;
+    border: 1px dashed red;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-none-mobile {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.bg-braingrey {
+    background-color: var(--brain-grey);
+}
+
+.bg-transparblack {
+    background-color: var(--transpar-black);
+}
+
+.bg-charcoal {
+    background-color: var(--charcoal);
+}
+
+button {
+    background-color: transparent;
+    color: var(--white);
+    text-transform: uppercase;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.content {
+    margin: 5px;
+}
+
+.py-10 {
+    padding: 10px 0;
+}

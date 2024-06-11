@@ -21,98 +21,6 @@ body {
     color: var(--white);
 }
 
-/* UTILITIES */
-.debug {
-    width: 100%;
-    border: 1px dashed red;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.d-none-mobile {
-    display: none;
-}
-
-.flex {
-    display: flex;
-}
-
-.flex-col {
-    flex-direction: column;
-}
-
-.space-between {
-    justify-content: space-between;
-}
-
-.justify-end {
-    justify-content: flex-end;
-}
-
-.align-center {
-    align-items: center;
-}
-
-.gap-10 {
-    gap: 10px;
-}
-
-.gap-20 {
-    gap: 20px;
-}
-
-.fixed {
-    position: fixed;
-}
-
-.relative {
-    position: relative;
-}
-
-.absolute {
-    position: absolute;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.bg-black {
-    background-color: var(--black);
-}
-
-.bg-braingrey {
-    background-color: var(--brain-grey);
-}
-
-.bg-transparblack {
-    background-color: var(--transpar-black);
-}
-
-.bg-charcoal {
-    background-color: var(--charcoal);
-}
-
-button {
-    background-color: transparent;
-    color: var(--white);
-    text-transform: uppercase;
-    border: 1px solid var(--white);
-    border-radius: 20px;
-    font-weight: 600;
-}
-
-.content {
-    margin: 5px;
-}
-
-.py-10 {
-    padding: 10px 0;
-}
-
 /* BODY SECTIONS */
 .top-section {
     height: calc(100vh - 100px);
@@ -132,7 +40,7 @@ header {
     top: 0;
     width: calc(100vw - 50px);
     z-index: 1;
-    padding: 5px;
+    padding: 0 25px;
 }
 
 .main {
@@ -159,6 +67,9 @@ footer {
 /* Other classes */
 .btn-primary {
     padding: 13px 35px;
+}
+
+.btn-primary, .footer-right {
     font-size: 12px;
 }
 
@@ -225,15 +136,12 @@ footer {
     max-width: 100%;
 }
 
-.album-title {
+.album-title, .footer-center i {
     font-size: 15px;
-    padding: 10px 0;
 }
 
-.album-caption {
-    color: var(--grey);
-    font-size: 12px;
-    font-weight: 600;
+.album-title {
+    padding: 10px 0;
 }
 
 .main-titles p, .album-caption {
@@ -271,10 +179,6 @@ footer .album-img {
     margin-bottom: 3px;
 }
 
-.footer-center i {
-    font-size: 15px;
-}
-
 .footer-center .fa-circle-play {
     font-size: 25px;
 }
@@ -283,10 +187,6 @@ footer .album-img {
     font-size: 10px;
     font-weight: 700;
     margin: 10px;
-}
-
-.footer-right {
-    font-size: 12px;
 }
 
 span {
@@ -323,140 +223,4 @@ span {
 .silver-line-smaller {
     max-width: 20px;
     width: 30px;
-}
-/* DA VEDERE SU */
-
-
-/* RESPONSIVENESS */
-@media screen and (min-width: 576px){
-    .sidebar {
-        width: 200px;
-        padding: 20px;
-        align-items: flex-start;
-    }
-    
-    .main-box {
-        width: calc(100vw - 200px);
-    }
-    
-    header {
-        width: calc(100vw - 200px);
-    }
-
-    .d-none-s {
-        display: none;
-    }
-
-    .d-none-mobile {
-        display: block;
-    }
-
-    .menu-icons>img {
-        width: 70%;
-        padding-bottom: 20px;
-    }
-
-    .text-start {
-        text-align: start;
-    }
-
-    .menu-icons p {
-        color: var(--grey);
-        font-size: 12px;
-        font-weight: 600;
-        padding-left: 5px;
-    }
-
-    .menu-icons h3 {
-        font-size: 12px;
-        padding: 15px 0;
-        text-transform: uppercase;
-    }
-
-    .menu-icons i {
-        color: var(--grey);
-        font-size: 40px;
-        padding-right: 5px;
-    }
-
-    .menu-icons ul li {
-        list-style-type: none;
-        color: var(--grey);
-        font-size: 12px;
-        font-weight: 600;
-        padding: 10px 0;
-    }
-
-    .user-sidebar {
-        align-items: flex-start;
-    }
-
-    .user-sidebar h3 {
-        font-size: 12px;
-        padding-left: 10px;
-    }
-    
-    .user-sidebar p {
-        color: var(--grey);
-        font-size: 12px;
-        font-weight: 600;
-        padding-left: 10px;
-    }
-
-    .divider-sidebar {
-        border-top: 1px solid var(--grey);
-        width: 160px;
-    }
-
-    .footer-left p {
-        display: inline-block;
-    }
-}
-
-
-
-
-
-@media screen and (min-width: 768px){
-    .col-md-25 {
-        width: 25%;
-    }
-
-    .grey-line {
-        max-width: 200px;
-    }
-
-    .silver-line-smaller {
-        max-width: 30px;
-    }
-
-    .footer-left div.flex {
-        flex-direction: row;
-    }
-}
-
-@media screen and (min-width: 1200px){
-    .sidebar {
-        width: 300px;
-    }
-    
-    .main-box {
-        width: calc(100vw - 300px);
-    }
-    
-    header {
-        width: calc(100vw - 300px);
-    }
-    
-    .col-lg-16 {
-        width: calc(100% / 6);
-    }
-
-    .grey-line {
-        max-width: 400px;
-    }
-
-    .silver-line {        
-        max-width: 100px;
-    }
 }
