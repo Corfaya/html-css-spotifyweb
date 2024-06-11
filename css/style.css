@@ -86,6 +86,10 @@ footer {
     font-size: 12px;
 }
 
+.menu-icons {
+    overflow-y: scroll;
+}
+
 .menu-icons img {
     width: 25px;
     padding: 3px 0;

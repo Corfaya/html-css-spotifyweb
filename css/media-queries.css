@@ -1,6 +1,6 @@
 /* RESPONSIVENESS */
 /* S */
-@media screen and (min-width: 576px){
+@media screen and (min-width: 594px){
     .sidebar {
         width: 200px;
         padding: 20px;
@@ -86,6 +86,10 @@
 
     .md-flex p {
         margin-right: 2px;
+    }
+
+    .footer-right {
+        flex-direction: row;
     }
 }
 
