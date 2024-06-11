@@ -3,7 +3,7 @@
 @media screen and (min-width: 594px){
     .sidebar {
         width: 200px;
-        padding: 20px;
+        padding: 20px 0;
         align-items: flex-start;
     }
     
@@ -21,6 +21,10 @@
 
     .d-none-mobile {
         display: block;
+    }
+
+    .menu-icons, .user-sidebar {
+        padding-left: 20px;
     }
 
     .menu-icons>img {
@@ -119,7 +123,5 @@
 @media screen and (min-width: 1200px){
     .col-lg-16 {
         width: calc(100% / 6);
-    }
-
-    
+    }  
 }
