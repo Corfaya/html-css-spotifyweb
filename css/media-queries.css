@@ -79,9 +79,13 @@
         border-top: 1px solid var(--grey);
         width: 160px;
     }
+    
+    .md-flex {
+        display: flex;
+    }
 
-    .footer-left p {
-        display: inline-block;
+    .md-flex p {
+        margin-right: 2px;
     }
 }
 
@@ -91,16 +95,12 @@
         width: 25%;
     }
 
-    .grey-line {
-        max-width: 200px;
-    }
-
-    .silver-line-smaller {
-        max-width: 30px;
-    }
-
     .footer-left div.flex {
         flex-direction: row;
+    }
+
+    .footer-left div.flex i {
+        margin-right: 10px;
     }
 }
 
@@ -110,11 +110,5 @@
         width: calc(100% / 6);
     }
 
-    .grey-line {
-        max-width: 400px;
-    }
-
-    .silver-line {        
-        max-width: 100px;
-    }
+    
 }

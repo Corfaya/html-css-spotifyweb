@@ -13,7 +13,7 @@
     --grey: #808080;
     --transpar-black: #000000a9;
     --brain-grey: #141922;
-    --charcoal : #282828;
+    --charcoal: #282828;
 }
 
 body {
@@ -32,7 +32,7 @@ body {
 
 .main-box {
     width: calc(100vw - 50px);
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 header {
@@ -64,12 +64,25 @@ footer {
     width: 50%;
 }
 
+.footer-left {
+    width: 20%;
+}
+
+.footer-center {
+    width: 60%;
+}
+
+.footer-right {
+    width: 20%;
+}
+
 /* Other classes */
 .btn-primary {
     padding: 13px 35px;
 }
 
-.btn-primary, .footer-right {
+.btn-primary,
+.footer-right {
     font-size: 12px;
 }
 
@@ -85,7 +98,7 @@ footer {
 }
 
 .user-sidebar .install-icon {
-    width: 15px;    
+    width: 15px;
 }
 
 .user-sidebar>div {
@@ -101,7 +114,7 @@ footer {
 
 .user-sidebar .avatar img {
     width: 100%;
-    height: 100%;    
+    height: 100%;
     border-radius: 50%;
 }
 
@@ -136,7 +149,8 @@ footer {
     max-width: 100%;
 }
 
-.album-title, .footer-center i {
+.album-title,
+.footer-center i {
     font-size: 15px;
 }
 
@@ -144,7 +158,8 @@ footer {
     padding: 10px 0;
 }
 
-.main-titles p, .album-caption {
+.main-titles p,
+.album-caption {
     color: var(--grey);
     font-size: 12px;
     font-weight: 600;
@@ -159,7 +174,9 @@ footer .album-img {
     max-height: 30px;
 }
 
-.footer-left, .footer-center, .footer-right {
+.footer-left,
+.footer-center,
+.footer-right {
     padding: 10px;
 }
 
@@ -175,7 +192,6 @@ footer .album-img {
 
 .footer-left i {
     color: var(--grey);
-    margin-left: 15px;
     margin-bottom: 3px;
 }
 
@@ -193,34 +209,24 @@ span {
     display: inline-block;
 }
 
-.grey-line, .grey-line-smaller {
+.grey-line,
+.grey-line-smaller {
     background-color: var(--grey);
     border-radius: 10px;
     height: 5px;
 }
 
-.grey-line {
-    max-width: 120px;
-    width: 400px;
-}
-
-.grey-line-smaller {    
-    max-width: 80px;    
-    width: 130px;
-}
-
-.silver-line, .silver-line-smaller {
+.silver-line,
+.silver-line-smaller {
     background-color: var(--silver);
     border-radius: 10px;
     height: 5px;
 }
 
-.silver-line {    
-    max-width: 40px;
-    width: 100px;
+.silver-line {
+    left: 0;
 }
 
 .silver-line-smaller {
-    max-width: 20px;
-    width: 30px;
+    left: 0;
 }
