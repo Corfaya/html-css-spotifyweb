@@ -81,6 +81,10 @@ footer {
     padding: 13px 35px;
 }
 
+.btn-primary:hover {
+    transform: scale(1.1);
+}
+
 .btn-primary,
 .footer-right {
     font-size: 12px;
@@ -135,6 +139,10 @@ footer {
     padding: 20px 10px;
 }
 
+.main-index li:hover, .footer-left p:hover, .footer-left i:hover {
+    color: var(--white);
+}
+
 .green-border-bottom {
     border-top: 2px solid var(--green-yellow);
     width: 50%;
@@ -151,6 +159,21 @@ footer {
 
 .album-img {
     max-width: 100%;
+}
+
+.hover-play {
+    font-size: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main .relative:hover .d-none {
+    display: block;
+}
+
+.main .relative:hover img {
+    opacity: 0.5;
 }
 
 .album-title,
@@ -173,7 +196,7 @@ footer {
     border-radius: 50%;
 }
 
-footer .album-img {
+footer .album-img-small {
     max-width: 30px;
     max-height: 30px;
 }
@@ -192,6 +215,11 @@ footer .album-img {
     color: var(--grey);
     font-size: 10px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.footer-left p:hover {
+    text-decoration: underline var(--white);
 }
 
 .footer-left i {
@@ -203,6 +231,10 @@ footer .album-img {
     font-size: 25px;
 }
 
+.footer-center .fa-circle-play:hover {
+    transform: scale(1.2);
+}
+
 .footer-center p {
     font-size: 10px;
     font-weight: 700;
@@ -211,20 +243,26 @@ footer .album-img {
 
 span {
     display: inline-block;
+    cursor: pointer;
 }
 
 .grey-line,
 .grey-line-smaller {
     background-color: var(--grey);
     border-radius: 10px;
-    height: 5px;
+    height: 6px;
 }
 
 .silver-line,
 .silver-line-smaller {
     background-color: var(--silver);
     border-radius: 10px;
-    height: 5px;
+    height: 6px;
+}
+
+.hover-line-effect:hover .silver-line,
+.hover-line-effect:hover .silver-line-smaller {
+    background-color: var(--green-yellow);
 }
 
 .silver-line {
@@ -233,4 +271,17 @@ span {
 
 .silver-line-smaller {
     left: 0;
+}
+
+.circle-bar {
+    background-color: var(--white);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    left: 95%;
+    bottom: -3px;
+}
+
+.hover-line-effect:hover .circle-bar {
+    display: block;
 }

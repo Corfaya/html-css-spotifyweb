@@ -43,6 +43,11 @@
     .menu-icons p {
         color: var(--grey);        
         padding-left: 5px;
+        cursor: pointer;
+    }
+
+    .menu-icons p:hover, .menu-icons i:hover, .menu-icons li:hover, .user-sidebar p:hover {
+        color: var(--white);
     }
 
     .menu-icons h3 {
@@ -68,11 +73,13 @@
 
     .user-sidebar h3 {
         padding-left: 10px;
+        cursor: pointer;
     }
     
     .user-sidebar p {
         color: var(--grey);
         padding-left: 10px;
+        cursor: pointer;
     }
 
     .divider-sidebar {

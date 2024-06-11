@@ -9,6 +9,10 @@
     flex-wrap: wrap;
 }
 
+.d-none {
+    display: none;
+}
+
 .d-none-mobile {
     display: none;
 }
@@ -84,10 +88,23 @@ button {
     border: 1px solid var(--white);
     border-radius: 20px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+}
+
+i {
+    cursor: pointer;
 }
 
 .content {
     margin: 5px;
+}
+
+li {
+    cursor: pointer;
 }
 
 .py-10 {
