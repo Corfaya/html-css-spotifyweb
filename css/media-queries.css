@@ -3,7 +3,7 @@
 @media screen and (min-width: 594px){
     .sidebar {
         width: 200px;
-        padding: 20px 0;
+        padding-top: 20px;
         align-items: flex-start;
     }
     

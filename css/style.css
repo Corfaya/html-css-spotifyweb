@@ -89,6 +89,10 @@ footer {
     font-size: 12px;
 }
 
+.menu-icons {
+    height: calc(100% - 75px);
+}
+
 .menu-icons img {
     width: 25px;
     padding: 3px 0;
@@ -105,7 +109,7 @@ footer {
 }
 
 .user-sidebar {
-    height: 75px;
+    background-color: #000;
 }
 
 .user-sidebar .install-icon {
