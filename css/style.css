@@ -28,6 +28,7 @@ body {
 
 .sidebar {
     width: 50px;
+    padding-top: 10px;
 }
 
 .main-box {
@@ -110,6 +111,8 @@ footer {
 
 .user-sidebar {
     background-color: #000;
+    padding-bottom: 10px;
+    width: 100%;
 }
 
 .user-sidebar .install-icon {
