@@ -32,7 +32,6 @@ body {
 
 .main-box {
     width: calc(100vw - 50px);
-    overflow-y: scroll;
 }
 
 header {
@@ -90,19 +89,23 @@ footer {
     font-size: 12px;
 }
 
-.menu-icons {
-    overflow-y: scroll;
-}
-
 .menu-icons img {
     width: 25px;
     padding: 3px 0;
+}
+
+.menu-icons ul {
+    height: 35vh;
 }
 
 .green-border-left {
     border-left: 3px solid var(--green-yellow);
     height: 30px;
     left: -20px;
+}
+
+.user-sidebar {
+    height: 75px;
 }
 
 .user-sidebar .install-icon {

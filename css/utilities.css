@@ -107,6 +107,12 @@ li {
     cursor: pointer;
 }
 
+.scrollbar {    
+    overflow-y: scroll;
+    scrollbar-color: var(--green-yellow) var(--charcoal);
+    scrollbar-width: thin;
+}
+
 .py-10 {
     padding: 10px 0;
 }
